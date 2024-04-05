@@ -45,11 +45,11 @@ public class Ejercicio_III {
 	}
 
 	private static void mostrarMenu() {
-        System.out.println("\n--- Menú Árbol B ---");
-        System.out.println("1. Insertar un número");
-        System.out.println("2. Eliminar un número");
-        System.out.println("3. Buscar un número");
-        System.out.println("4. Salir");
-        System.out.print("Seleccione una opción: ");
+        System.out.println("\n-------------MUNU-------------");   
+        System.out.println("|1.....Insercion de una clave|");
+        System.out.println("|2...Eliminacion de una clave|");
+        System.out.println("|3...................Busqueda|"); 
+        System.out.println("|4......................Salir|");
+        System.out.print("Ingrese su opcion: "); 
     }
 }
