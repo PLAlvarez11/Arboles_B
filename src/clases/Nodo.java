@@ -14,7 +14,7 @@ public class Nodo {
 	}
 
 	public void imprimir() {
-		System.out.println("[");
+		System.out.print("[ ");
 		for(int i = 0; i < clave; i++) {
 			if (i < clave - 1) {
 				System.out.println(key[i] + " | ");
@@ -23,7 +23,7 @@ public class Nodo {
 			}
 				
 		}
-		System.out.println("]");
+		System.out.print(" ]");
 	}
 	
 	public int buscar(int n) {
