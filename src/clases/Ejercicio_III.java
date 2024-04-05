@@ -7,7 +7,8 @@ public class Ejercicio_III {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int opcion;
-		
+
+		System.out.println("Tarea 3 programacion 3, Arboles B");
 		System.out.print("Ingrese el grado: ");
 	    int grado = scanner.nextInt();	
 	    Arbol arbol = new Arbol(grado);
